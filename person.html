@@ -1,36 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的个人网站</title>
-    <link rel="stylesheet" href="styles.css"> <!-- 样式表文件，您可以根据需要创建 -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>欢迎来到我的个人网站</h1>
     </header>
-
+    
     <nav>
         <ul>
-            <li><a href="#">首页</a></li>
-            <li><a href="#">关于我</a></li>
-            <li><a href="#">博客</a></li>
-            <li><a href="#">联系我</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#contact">联系我</a></li>
         </ul>
     </nav>
-
-    <main>
-        <section>
-            <h2>关于我</h2>
-            <p>这里是您可以添加关于您自己的信息的部分。</p>
-        </section>
-
-        <section>
-            <h2>博客</h2>
-            <p>这里是您可以发布博客文章的部分。</p>
-        </section>
-    </main>
-
+    
+    <section id="about">
+        <h2>关于我</h2>
+        <p>这里是您可以添加关于您自己的信息的部分。</p>
+    </section>
+    
+    <section id="portfolio">
+        <h2>作品集</h2>
+        <!-- 您可以在此处添加您的作品和项目信息 -->
+    </section>
+    
+    <section id="contact">
+        <h2>联系我</h2>
+        <p>您可以通过以下方式联系我：</p>
+        <ul>
+            <li>Email: your@email.com</li>
+            <li>社交媒体: <a href="https://www.twitter.com/yourusername">Twitter</a></li>
+        </ul>
+    </section>
+    
     <footer>
         <p>&copy; 2023 我的个人网站</p>
     </footer>
